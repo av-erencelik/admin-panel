@@ -1,12 +1,1 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Lato", sans-serif;
-  min-height: 100vh;
-}
-
-aside {
-  background-color: #0284c7;
-}
-
-/*# sourceMappingURL=styles.css.map */
+body{margin:0;padding:0;font-family:"Lato",sans-serif;min-height:100vh;display:grid;grid-template-columns:1fr 4fr;grid-template-rows:1fr 4fr;grid-template-areas:"s h" "s m"}aside{background-color:#0284c7;grid-area:s;color:#fff;padding:0 50px}aside>div{margin-bottom:50px}aside .title img{transform:translateY(15px);margin-right:20px}aside .title h1{font-size:2rem}aside ul{list-style:none;padding-left:0}aside ul img{width:36px;transform:translateY(10px);margin-right:20px}aside ul li{font-size:1.3rem;font-weight:bold;margin-bottom:15px}header{grid-area:h;display:flex;flex-direction:column;padding:30px;border-bottom:2px inset #bbb}header .header-container{display:grid;grid-template-columns:4fr 2fr}header .header-container :first-child{display:flex;justify-content:flex-start;align-items:center;width:100%}header .header-container :first-child>div{flex-grow:1}header .header-container :first-child input{width:90%}header .header-container :first-child img{width:24px}header .header-container .profile{display:grid;grid-template-columns:1fr 1fr 3fr;gap:15px}header .header-container .profile img{width:50px;border-radius:50%;align-self:center;justify-self:center}header .header-container .profile #bell{justify-self:flex-end}header .header-container .profile :first-child{width:24px}header .welcome{display:flex;justify-content:space-between}header .welcome .user{display:flex;justify-content:center;align-items:center}header .welcome .user p{font-weight:bold;margin-bottom:5px}header .welcome .user img{width:80px;border-radius:50%;margin-right:30px}header .welcome .user h1{margin-top:0;font-size:1.5rem}header .welcome .buttons{align-self:center}header .welcome .buttons button{padding:12px 36px;border-radius:30px;border:none;background-color:#0284c7;color:#fff;font-weight:bold;font-size:1.1rem;margin-right:20px}main{grid-area:m}/*# sourceMappingURL=styles.css.map */
