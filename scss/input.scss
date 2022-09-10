@@ -5,3 +5,9 @@ body {
     font-family: 'Lato', sans-serif;
     min-height: 100vh;
 }
+$primary : #0284c7;
+
+// sidebar
+aside {
+    background-color: $primary ;
+}

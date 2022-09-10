@@ -5,4 +5,8 @@ body {
   min-height: 100vh;
 }
 
+aside {
+  background-color: #0284c7;
+}
+
 /*# sourceMappingURL=styles.css.map */
